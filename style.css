@@ -2,18 +2,9 @@
     font-family: Calibri, sans-serif; 
     font-size: 200%;
   }
-
-  h1{
+  
+  .me{
     width:80%;
     background-color: rgb(175, 169, 155);
-  }
-
-  p{
-    width:80%;
-    background-color: rgb(175, 169, 155);
-  }
-
-  div {
-    width:80%;
-    background-color: rgb(175, 169, 155);
+    box-shadow: 2px 2px 2px grey;
   }
