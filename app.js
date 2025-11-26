@@ -48,52 +48,52 @@ function checkWin(){
     console.log(curr)
 
     if(
-        document.getElementById('0').textContent === curr &
-        document.getElementById('1').textContent === curr &
+        document.getElementById('0').textContent === curr &&
+        document.getElementById('1').textContent === curr &&
         document.getElementById('2').textContent === curr){
         return true; 
     }
     if(
-        document.getElementById('3').textContent === curr &
-        document.getElementById('4').textContent === curr &
+        document.getElementById('3').textContent === curr &&
+        document.getElementById('4').textContent === curr &&
         document.getElementById('5').textContent === curr){
         return true; 
     }
     if(
-        document.getElementById('6').textContent === curr &
-        document.getElementById('7').textContent === curr &
+        document.getElementById('6').textContent === curr &&
+        document.getElementById('7').textContent === curr &&
         document.getElementById('8').textContent === curr){
         return true; 
     }
     
     if(
-        document.getElementById('0').textContent === curr &
-        document.getElementById('3').textContent === curr &
+        document.getElementById('0').textContent === curr &&
+        document.getElementById('3').textContent === curr &&
         document.getElementById('6').textContent === curr){
         return true; 
     }
     if(
-        document.getElementById('1').textContent === curr &
-        document.getElementById('4').textContent === curr &
+        document.getElementById('1').textContent === curr &&
+        document.getElementById('4').textContent === curr &&
         document.getElementById('7').textContent === curr){
         return true; 
     }
     if(
-        document.getElementById('2').textContent === curr &
-        document.getElementById('5').textContent === curr &
+        document.getElementById('2').textContent === curr &&
+        document.getElementById('5').textContent === curr &&
         document.getElementById('8').textContent === curr){
         return true; 
     }
 
     if(
-        document.getElementById('0').textContent === curr &
-        document.getElementById('4').textContent === curr &
+        document.getElementById('0').textContent === curr &&
+        document.getElementById('4').textContent === curr &&
         document.getElementById('8').textContent === curr){
         return true; 
     }
     if(
-        document.getElementById('2').textContent === curr &
-        document.getElementById('4').textContent === curr &
+        document.getElementById('2').textContent === curr &&
+        document.getElementById('4').textContent === curr &&
         document.getElementById('6').textContent === curr){
         return true; 
     }
