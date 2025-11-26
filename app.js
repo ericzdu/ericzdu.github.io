@@ -12,14 +12,18 @@ clicker.addEventListener('click', () => {
 let boards = document.getElementsByClassName('board'); 
 const currentTurn = document.getElementById('turn-indicator')
 let turn = true; //true: X, false: 0
+let round = 0; 
 console.log(boards); 
 
 for(const board of boards){
     board.addEventListener('click', event =>{
+        if(round === 9){
+            currentTurn.textContent = "tie!";
+        }
         if(checkWin()){
             currentTurn.textContent = (turn ? "O" : "X") + " Wins!"; 
         }else{
-            if(board.textContent === "_"){
+            if(board.textContent === "\xa0"){
                 if(turn){
                     board.textContent="X";                 
                     currentTurn.textContent = "current turn: O";
@@ -28,8 +32,12 @@ for(const board of boards){
                     currentTurn.textContent = "current turn: X";
                 }
                 turn = !turn; 
+                round += 1;
                 if(checkWin()){
                     currentTurn.textContent = (turn ? "O" : "X") + " Wins!"; 
+                }
+                if(round === 9 && !checkWin()){
+                    currentTurn.textContent = "tie!";
                 }
             }else{
                 currentTurn.textContent = "current turn: " + (turn ? "X" : "O") + ", you can only change blank squares!";

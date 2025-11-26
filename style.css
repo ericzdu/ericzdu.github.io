@@ -1,39 +1,67 @@
-  body{
-    font-family: Calibri, sans-serif; 
-    font-size: 200%;
-  }
+body{
+  font-family: Calibri, sans-serif; 
+  font-size: 200%;
+}
 
-  .me{
-    width:80%;
-    background-color: rgb(175, 169, 155);
-    box-shadow: 2px 2px 2px grey;
-  }
+.me{
+  width:80%;
+  background-color: rgb(175, 169, 155);
+  box-shadow: 2px 2px 2px grey;
+}
 
-  #hi-button{
-    width: 100px;
-    height: 35px;
-    font-size: 24px;
-    background-color: rgb(0, 255, 0);
-    border-radius: 5px; 
-  }
+#hi-button{
+  width: 100px;
+  height: 35px;
+  font-size: 24px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 5px; 
+}
 
-  #hi-button:hover{
-    background-color: rgb(0, 90, 12);
-    color: white;
-    transition: 0.3s;
-  }
+#hi-button:hover{
+  background-color: rgb(0, 90, 12);
+  color: white;
+  transition: 0.3s;
+}
 
-  #hi-button:active{
-    font-size: 22px;
-    background-color: rgb(255, 255, 255);
-    transition: 0.1s;
-    border-radius: 20px;
-  }
+#hi-button:active{
+  font-size: 22px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.1s;
+  border-radius: 20px;
+}
 
-  .board{
-    width: 35px;
-    height: 35px; 
-    background-color: rgb(0, 255, 0);
-    font-size: 24px;
-    border-radius: 0px; 
-  }
+.board{
+  width: 35px;
+  height: 35px; 
+  background-color: rgb(0, 255, 0);
+  font-size: 24px;
+  border-radius: 0px; 
+  margin : 1px;
+}
+
+.board:hover{
+  background-color: rgb(0, 90, 12);
+  color: white;
+  transition: 0.3s;
+}
+
+.board:active{
+  background-color: rgb(255, 255, 255);
+  transition: 0.1s;
+}
+
+[id="0"] {
+  border-top-left-radius: 5px;
+}
+
+[id="2"] {
+  border-top-right-radius: 5px;
+}
+
+[id="6"] {
+  border-bottom-left-radius: 5px;
+}
+
+[id="8"] {
+  border-bottom-right-radius: 5px;
+}
