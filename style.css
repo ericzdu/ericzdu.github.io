@@ -1,5 +1,6 @@
 body{
   font-family: Calibri, sans-serif; 
+  background-color: rgb(60, 60, 60);
   font-size: 200%;
 }
 
@@ -50,6 +51,7 @@ body{
   transition: 0.1s;
 }
 
+/*corner styling*/
 [id="0"] {
   border-top-left-radius: 5px;
 }
