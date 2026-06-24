@@ -1,0 +1,9 @@
+/*
+Source - https://stackoverflow.com/a/16586438
+Posted by transistor09, modified by community. See post 'Timeline' for change history
+Retrieved 2026-06-24, License - CC BY-SA 4.0
+*/
+
+.pre {
+  width: 80ch; /* classic terminal width for code sections */
+}
